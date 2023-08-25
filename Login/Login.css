@@ -1,0 +1,42 @@
+/* ... (Same as before) */
+
+.login, .signup {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login h2, .signup h2 {
+    margin-bottom: 20px;
+  }
+  
+  .login input, .signup input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .login button, .signup button {
+    background-color: #ff5500;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login button:hover, .signup button:hover {
+    background-color: #e64400;
+  }
+  
+  .login p, .signup p {
+    margin-top: 15px;
+  }
+  
